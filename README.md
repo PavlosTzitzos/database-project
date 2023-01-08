@@ -27,6 +27,12 @@ But a patient cannot take more than one medicine and sellers are allowed to visi
 pharmacies while the distributors are responsible for transporting medicines from the company to the state pharmacy. The company works with many distributors, 
 and distributors ship the drugs to many state-run pharmacies. The company consists of, among other things, the sellers. The drugs produced by the 
 company distributed by distributors promoted by vendors prescribed by doctors provided by state pharmacies and consumed by patients.
- 
+
+The following is the relationship and instances diagram version 3.
+
 ![db_v3 drawio](https://user-images.githubusercontent.com/94289294/211176375-d39d7c49-e16d-49a8-8e38-09515f688a72.png)
+
+The following is the relationship and instances diagram version 3.
+
+![diagram_v3 drawio](https://user-images.githubusercontent.com/94289294/211176436-21d32869-a3b2-4c03-b04d-85c82448f8ce.png)
 

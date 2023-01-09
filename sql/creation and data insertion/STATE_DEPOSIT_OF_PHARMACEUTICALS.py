@@ -24,8 +24,8 @@ pollaplotita = math.floor(Big / Small)
 
 b.write("#If you recreated this, remember to remove the last ',' in the file" + "\n" +
         "INSERT INTO STATE_DEPOSIT_OF_PHARMACEUTICALS"
-        "(CITY, SDOP_RANGE, SDOP_CAPACITY, ADDRESS, SDOP_DILIVERY_TIME)"
-        "VALUES( " + "\n")
+        "(CITY, SDOP_RANGE, SDOP_CAPACITY, ADDRESS, SDOP_DELIVERY_TIME)"
+        "VALUES " + "\n")
 
 
 A = [[0 for col in range(2)] for row in range(Big)]
@@ -38,11 +38,11 @@ for i in range(0, Small):
         Range = random.randint(0, 80)
         cap = random.randint(100, 100000)
         del_time = random.randint(1, 14)
-        str_number = random.randint(1,150)
+        str_number = random.randint(1, 150)
         addr = d_col2 + str(str_number)
         A[counter] = [d_col1, addr]
         b.write("( '" + d_col1 + "', '" + str(Range) + "', '" + str(cap) + "', '" + addr + "', '" + str(del_time) + "' )," +"\n")
-b.write(');' + "\n")
+b.write(';' + "\n")
 for i in range (0,Big):
     store.write(str(A[i]) + "\n")
 

@@ -15,6 +15,10 @@ a1 = open("C:/Users/thoma/OneDrive/Documents/Sxoli/Data_Bases/code_for_data_crea
 a2 = open("C:/Users/thoma/OneDrive/Documents/Sxoli/Data_Bases/code_for_data_creation/DISTRIBUTOR.txt", "r")
 b = open("C:/Users/thoma/OneDrive/Documents/Sxoli/Data_Bases/code_for_data_creation/BUY INSERT.txt", "w")
 
+b.write("#If you recreated this, remember to remove the last ',' in the file" + "\n" +
+        "INSERT INTO BUY"
+        "(COMPANY_NAME, DISTRIBUTOR_NAME)"
+        "VALUES " + "\n")
 
 
 Small = min((l1, l2))
@@ -24,7 +28,8 @@ for i in range(0, Small):
     d_col1 = a1.readline().replace('\n', '')
     for j in range(0, pollaplotita):
         d_col2 = a2.readline().replace('\n', ' ')
-        b.write("VALUES( " + d_col1 + ", " + d_col2 + " )" + str(';') + "\n")
+        b.write("VALUES( '" + d_col1 + "', '" + d_col2 + "' ),\n")
+b.write(';' + "\n")
 
 a1.close()
 a2.close()

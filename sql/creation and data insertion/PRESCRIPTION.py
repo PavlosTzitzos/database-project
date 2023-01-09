@@ -10,9 +10,9 @@ a1 = open("C:/Users/thoma/OneDrive/Documents/Sxoli/Data_Bases/code_for_data_crea
 b = open("C:/Users/thoma/OneDrive/Documents/Sxoli/Data_Bases/code_for_data_creation/PRESCRIPTION_INSERT.txt", "w")
 
 b.write("#If you recreated this, remember to remove the last ',' in the file" + "\n" +
-        "INSERT INTO SPRESCRIPTION"
+        "INSERT INTO PRESCRIPTION"
         "(COMPANY_NAME, SERIAL_CODE, PATIENT_SSN, DISEASE_CODE, DATE_OF_PRESCRIPTION)"
-        "VALUES( " + "\n")
+        "VALUES " + "\n")
 
 
 for i in range(0, l1):
@@ -23,7 +23,7 @@ for i in range(0, l1):
         YY = random.randint(1990, 2022)
         b.write("( '" + d_col1 + "', '" + str("NULL") + "', '" + str("NULL") + "', '" + str("NULL") + "', '"  + str(DD) + "'/'" + str(MM) + "'/'" + str(YY)+ "' )," +"\n")
 
-b.write(');' + "\n")
+b.write(';' + "\n")
 a1.close()
 b.close()
 

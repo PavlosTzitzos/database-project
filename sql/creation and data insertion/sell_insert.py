@@ -7,6 +7,7 @@ with open("C:/Users/thoma/OneDrive/Documents/Sxoli/Data_Bases/code_for_data_crea
         pass
 l1 = count+1
 
+
 with open("C:/Users/thoma/OneDrive/Documents/Sxoli/Data_Bases/code_for_data_creation/DISTRIBUTOR.txt", "r") as a2:
     for count, line in enumerate(a2):
         pass
@@ -23,13 +24,15 @@ pollaplotita = math.floor(max(l1, l2) / Small)
 b.write("#If you recreated this, remember to remove the last ',' in the file" + "\n" +
         "INSERT INTO SELL"
         "(CITY, ADDRESS, DISTRIBUTOR_NAME)"
-        "VALUES( " + "\n")
+        "VALUES " + "\n")
 
 for i in range(0, Small):
-    d_col1 = a2.readline().replace('\n', '')
+    d_col2 = a2.readline().replace('\n', ' ')
     for j in range(0, pollaplotita):
-        d_col2 = a1.readline().replace('\n', ' ')
-        b.write("( '" + d_col1 + "', '" + d_col2 + "' )," +"\n")
+        d_col1 = a1.readline().replace('\n', '')
+        d_col1 = d_col1.replace(''[', '')
+        d_col1 = d_col1.replace(']'', '')
+        b.write("( '" + d_col1 + "', '" + d_col2 + "' )," + "\n")
 b.write(';' + "\n")
 
 a1.close()

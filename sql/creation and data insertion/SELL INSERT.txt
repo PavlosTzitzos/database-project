@@ -549,5 +549,5 @@ INSERT INTO SELL(CITY, ADDRESS, DISTRIBUTOR_NAME)VALUES(
 ( ' Kolmar', '[0, 0] ' ),
 ( ' Kolmar', '[0, 0] ' ),
 ( ' Kolmar', '[0, 0] ' ),
-( ' Kolmar', '[0, 0] ' ),
+( ' Kolmar', '[0, 0] ' )
 ;

@@ -527,5 +527,5 @@ INSERT INTO STATE_DEPOSIT_OF_PHARMACEUTICALS(CITY, SDOP_RANGE, SDOP_CAPACITY, AD
 ( 'Tripoli ', '9', '40387', 'Troias 76', '13' ),
 ( 'Tripoli ', '6', '87493', 'Tsakalof 53', '5' ),
 ( 'Tripoli ', '63', '14392', 'Tsaltaki 14', '5' ),
-( 'Tripoli ', '23', '43005', 'Tsara Nikiforou 17', '7' ),
+( 'Tripoli ', '23', '43005', 'Tsara Nikiforou 17', '7' )
 );

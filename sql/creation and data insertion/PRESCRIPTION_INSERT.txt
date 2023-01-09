@@ -17,5 +17,5 @@ INSERT INTO SPRESCRIPTION(COMPANY_NAME, SERIAL_CODE, PATIENT_SSN, DISEASE_CODE, 
 ( 'Roche ', 'NULL', 'NULL', 'NULL', '26'/'2'/'2016' ),
 ( 'Sanofi ', 'NULL', 'NULL', 'NULL', '27'/'12'/'2011' ),
 ( 'Sanofi ', 'NULL', 'NULL', 'NULL', '26'/'3'/'1990' ),
-( 'Sanofi ', 'NULL', 'NULL', 'NULL', '11'/'8'/'2011' ),
+( 'Sanofi ', 'NULL', 'NULL', 'NULL', '11'/'8'/'2011' )
 );

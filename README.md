@@ -30,9 +30,9 @@ company distributed by distributors promoted by vendors prescribed by doctors pr
 
 The following is the relationship and instances diagram version 3.
 
-![db_v3 drawio](https://user-images.githubusercontent.com/94289294/211176375-d39d7c49-e16d-49a8-8e38-09515f688a72.png)
+![db_v3](https://user-images.githubusercontent.com/94289294/211664721-a2055533-7de3-4cf1-8cf3-4620b1f62d30.png)
 
 The following is the relationship and instances diagram version 3.
 
-![diagram_v3 drawio](https://user-images.githubusercontent.com/94289294/211176436-21d32869-a3b2-4c03-b04d-85c82448f8ce.png)
+![diagram_v3](https://user-images.githubusercontent.com/94289294/211664752-6c044af1-5a24-408a-92f5-aacb9838f019.png)
 

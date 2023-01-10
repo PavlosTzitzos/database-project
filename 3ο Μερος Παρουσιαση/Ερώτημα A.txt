@@ -1,0 +1,67 @@
+a) Ποιά φάρμακα την Amgen συνταγογραφούν οι γιατροί (+ποιοί γιατροί)
+ mysql> SELECT DR.DOCTOR_NAME, D.DRUG_NAME FROM PRESCRIBE INNER JOIN DOCTOR DR ON PRESCRIBE.DOCTOR_SSN=DR.DOCTOR_SSN INNER JOIN DRUGS  D  ON PRESCRIBE.SERIAL_CODE=D.SERIAL_CODE WHERE D.COMPANY_NAME = 'Amgen';
++-------------+-----------+
+| DOCTOR_NAME | DRUG_NAME |
++-------------+-----------+
+| Aris        | aneurysm  |
+| Thomas      | aneurysm  |
++-------------+-----------+
+2 rows in set (0.00 sec)
+
+εκδοχή με outer: 
+mysql> SELECT DR.DOCTOR_NAME, D.DRUG_NAME FROM PRESCRIBE RIGHT JOIN DOCTOR DR ON PRESCRIBE.DOCTOR_SSN=DR.DOCTOR_SSN  RIGHT JOIN DRUGS  D  ON PRESCRIBE.SERIAL_CODE=D.SERIAL_CODE WHERE D.COMPANY_NAME = 'Asemgen';
++-------------+-----------+
+| DOCTOR_NAME | DRUG_NAME |
++-------------+-----------+
+| Aris        | aneurysm  |
+| Thomas      | aneurysm  |
+| NULL        | xolera    |
++-------------+-----------+
+3 rows in set (0.00 sec)
+
+Αυτή η πληροφορία μας βοηθάει να έχουμε μια εικόνα της επιτυχίας των φαρμάκων, καθώς και της επιτυχίας των salesmen στη προώθηση των φαρμάκων σε κάθε γιατρό
+
+b) 
+ 1) Ποιοί salesman λαμβάνουν μισθό μεγαλύτερο του μέσου όρου
+
+mysql> SELECT SALESMAN_NAME FROM SALESMAN WHERE SALARY > (SELECT AVG(SALARY) FROM SALESMAN);
++---------------+
+| SALESMAN_NAME |
++---------------+
+| Karamitros    |
++---------------+
+1 row in set (0.01 sec)
+
+Αυτή η πληροφορία βοηθάει το τμήμα Human Resources της εταιρίας. Να γνωρίζουν αν οι μισθοί είναι δίκαιοι μεταξύ των υπαλλήλων,
+καθώς και αντάξιοι της αξίας που δίνουν στην εταιρία οι salesmen με τη δουλειά τους.
+
+
+ 2) Το ποσοστό των φαρμκάκων της Pfizer Hellas A.E. που έχουν εγκριθεί
+
+mysql> SELECT (SELECT COUNT(SERIAL_CODE) FROM DRUGS WHERE APPROVAL=1 AND COMPANY_NAME = 'Pfizer Hellas A.E.')/(SELECT COUNT(SERIAL_CODE) FROM DRUGS WHERE APPROVAL IS NOT NULL AND COMPANY_NAME = 'Pfizer Hellas A.E.') AS VALID FROM DRUGS GROUP BY VALID;
++--------+
+| VALID  |
++--------+
+| 0.3333 |
++--------+
+1 row in set (0.00 sec)
+
+Αυτή η πληροφορία μας βοηθάει να έχουμε μια εικόνα της αξιοπιστίας της εταιρίας
+
+c) Τα κέρδη των επιχειρήσεων ανά περιοχή
+
+mysql> SELECT HQ_ADDRESS, AVG(INCOME_OUTCOME) FROM COMPANY GROUP BY HQ_ADDRESS;
++--------------+---------------------+
+| HQ_ADDRESS   | AVG(INCOME_OUTCOME) |
++--------------+---------------------+
+| ATHENS       |         426666.6667 |
+| Europe       |              0.0000 |
+| THESSALONIKI |          70000.0000 |
+| Uknown       |         500000.0000 |
+| USA          |         -20000.0000 |
++--------------+---------------------+
+5 rows in set (0.00 sec)
+
+Αυτή η πληροφορία μας δίνει μια εικόνα για για την επιτυχία των εταιριών σε κάθε περιοχή. Βάσει αυτού μπορεί να αποφασιστεί να ανοίξει ή να κλείσει
+η εκάστοτε υπο-εταιρία.
+ 

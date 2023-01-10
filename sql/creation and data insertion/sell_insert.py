@@ -27,12 +27,12 @@ b.write("#If you recreated this, remember to remove the last ',' in the file" + 
         "VALUES " + "\n")
 
 for i in range(0, Small):
-    d_col2 = a2.readline().replace('\n', ' ')
+    d_col2 = a2.readline().replace('\n', '')
     for j in range(0, pollaplotita):
         d_col1 = a1.readline().replace('\n', '')
-        d_col1 = d_col1.replace(''[', '')
-        d_col1 = d_col1.replace(']'', '')
-        b.write("( '" + d_col1 + "', '" + d_col2 + "' )," + "\n")
+        d_col1 = d_col1.replace('[', '')
+        d_col1 = d_col1.replace(']', '')
+        b.write("( " + d_col1 + ", '" + d_col2 + "' )," + "\n")
 b.write(';' + "\n")
 
 a1.close()

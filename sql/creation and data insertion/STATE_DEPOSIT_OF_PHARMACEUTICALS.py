@@ -31,10 +31,10 @@ b.write("#If you recreated this, remember to remove the last ',' in the file" + 
 A = [[0 for col in range(2)] for row in range(Big)]
 counter = 0
 for i in range(0, Small):
-    d_col1 = a1.readline().replace('\n', ' ')
+    d_col1 = a1.readline().replace('\n', '')
     for j in range(0, pollaplotita):
         counter = counter +1
-        d_col2 = a2.readline().replace('\n', ' ')
+        d_col2 = a2.readline().replace('\n', '')
         Range = random.randint(0, 80)
         cap = random.randint(100, 100000)
         del_time = random.randint(1, 14)

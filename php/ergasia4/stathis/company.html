@@ -55,15 +55,10 @@
         <table id='empTable' class='display dataTable'>
              <thead>
                <tr>
-                 <th>ID</th>
-                 <th>Ονομα</th>
-                 <th>Επιθετο</th>
-                 <th>Email</th>
-                 <th>Τηλεφωνο</th>
-                 <th>Μαυρα</th>
-                 <th>Εργασιες</th>
-                 <th>Κοστος</th>
-                 <th>Σημειωσεις</th>
+                 <th>DRUG</th>
+                 <th>SERIAL CODE</th>
+                 <th>DISTRIBUTOR</th>
+                 <th>SALESMAN</th>
                </tr>
              </thead>
         </table>
@@ -80,15 +75,10 @@
         "processing" : true,
         "serverSide" : true,
         'columns': [
-             { data: 'id' },
-             { data: 'firstname' },
-             { data: 'lastname' },
-             { data: 'email' },
-             { data: 'phone' },
-             { data: 'black' },
-             { data: 'works' },
-             { data: 'salary' },
-             { data: 'notes' },
+             { data: 'DRUG' },
+             { data: 'SERIAL_CODE' },
+             { data: 'DISTRIBUTOR' },
+             { data: 'SALESMAN' },
           ],
         'ajax': {
                'url':'/datatables/ajaxfile.php',

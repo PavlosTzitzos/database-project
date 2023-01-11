@@ -13,6 +13,26 @@
 	<link rel="stylesheet" href="./datatables/datatables.min.css" type="text/css"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&family=Varela+Round&display=swap');
+		.company_details {
+			width: 17%;
+			padding: 15px;
+			background: white;
+			border-radius: 5px;
+			margin-left: 3%;
+			font-size: 16px;
+		}
+		.datatables {
+			width: 75%;
+			padding: 15px;
+			background: white;
+			border-radius: 5px;
+			margin-left:2%;
+			margin-right: 3%;
+			font-size: 16px;
+		}
+		#details {
+			display:inline-flex;
+		}
     </style>
 
     <title></title>
@@ -33,38 +53,38 @@
                 </ul>
             </div>
         </nav>
-        <p><BR>
-        <?php
-            $company_name = $_GET['company_name'];
-            $query = "SELECT * FROM COMPANY WHERE COMPANY_NAME = '$company_name' ";
-            $result = mysqli_query($con, $query);
-            if (mysqli_num_rows($result) > 0) {
-                // output data of each row
-                $row = mysqli_fetch_assoc($result);
-                echo "Company: " . $row["COMPANY_NAME"]. "<br> Income/Outcome: " . $row["INCOME_OUTCOME"]. "<br> HQ Address: " . $row["HQ_ADDRESS"]. "<br> Number of Salesmen: " . $row["NUMBER_OF_SALESMEN"]. "<br> Number of Factories: " . $row["NUMBER_OF_FACTORIES"]. "<br> Rate of production of new drugs: " . $row["NEW_DRUG_RATE"]. "<br><br>";
-            } else {
-                echo "0 results !!";
-            }
-        ?>
-      </p>
-</section>
-<section id="tables">
-	<div class="main container box">
-        <div class="table-responsive">
-        <div id="alert_message"></div>
-        <table id='empTable' class='display dataTable'>
-             <thead>
-               <tr>
-                 <th>DRUG</th>
-                 <th>SERIAL CODE</th>
-                 <th>DISTRIBUTOR</th>
-                 <th>SALESMAN</th>
-               </tr>
-             </thead>
-        </table>
-        </div>
-    </div>
-</section>
+		<div id="details">
+			<div class="company_details">
+				<?php
+					$company_name = $_GET['company_name'];
+					$query = "SELECT * FROM COMPANY WHERE COMPANY_NAME = '$company_name' ";
+					$result = mysqli_query($con, $query);
+					if (mysqli_num_rows($result) > 0) {
+						// output data of each row
+						$row = mysqli_fetch_assoc($result);
+						echo "Company: " . $row["COMPANY_NAME"]. "<br> Income/Outcome: " . $row["INCOME_OUTCOME"]. "<br> HQ Address: " . $row["HQ_ADDRESS"]. "<br> Number of Salesmen: " . $row["NUMBER_OF_SALESMEN"]. "<br> Number of Factories: " . $row["NUMBER_OF_FACTORIES"]. "<br> Rate of production of new drugs: " . $row["NEW_DRUG_RATE"]. "<br><br>";
+					} else {
+						echo "0 results !!";
+					}
+				?>
+			</div>
+			<div class="datatables">
+				<div class="table-responsive">
+					<div id="alert_message"></div>
+					<table id='empTable' class='display dataTable'>
+						 <thead>
+						   <tr>
+							 <th>DRUG</th>
+							 <th>SERIAL CODE</th>
+							 <th>DISTRIBUTOR</th>
+							 <th>SALESMAN</th>
+						   </tr>
+						 </thead>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
 <script type="text/javascript" src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./datatables/datatables.min.js"></script>
 <script type="text/javascript" language="javascript" >

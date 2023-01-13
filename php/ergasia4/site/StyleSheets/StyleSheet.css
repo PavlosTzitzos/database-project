@@ -1,0 +1,285 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    /*    font-family: 'Raleway', sans-serif;*/
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+.header {
+    background-color: #4e4e4e;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("../image/CompanyWarehouse.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 250px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 13px;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after {
+    width: 100%
+}
+.text-box{
+    width:90%;
+    color: #ffffff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 64px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.About_Us {
+    margin: 60px 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 11px 34px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+}
+.About_Us:hover{
+    border: 1px solid #00a3d8;
+    background: #00a3d8;
+    transition: 1s;
+}
+.Butterfly {
+    flex: 1;
+    text-align: center;
+}
+.Butterfly ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 30%;
+
+}
+.Butterfly ul li a{
+    color: #ffffff;
+    text-decoration:none;
+    font-size: 14px;
+    margin: 20px;
+
+}
+.Butterfly1 {
+    border: 1px solid #ffffff;
+    padding: 25px 34px;
+    display: inline-block;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+}
+.Butterfly1:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.5%;
+}
+.Search_Bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 2px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.Search_Bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+::placeholder{
+    color: #cac7ff;
+}
+.Search_Bar button img {
+    width: 35px;
+}
+.Search_Bar button{
+    border: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: #58629b;
+    cursor: pointer;
+
+}
+.App h1{
+    color: white;
+}
+.App {
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 10px;
+}
+.App input[type = "text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00a3d8;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.App input[type = "text"]:focus {
+    width: 240px;
+    border-color: #2ecc71;
+}
+.App input[type = "tel"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00a3d8;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.App input[type = "tel"]:focus {
+    width: 240px;
+    border-color: #2ecc71;
+}
+
+.App input[type = "number"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00a3d8;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.App input[type = "number"]:focus {
+    width: 240px;
+    border-color: #2ecc71;
+}
+.App input[list = "gender"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00a3d8;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.App input[list = "gender"]:focus {
+    width: 240px;
+    border-color: #2ecc71;
+}
+
+.App input[list="approval"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00a3d8;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.App input[list="approval"]:hover{
+    width: 240px;
+    border-color: #2ecc71;
+}
+.App input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.App input[type="submit"]:hover{
+    background: #2ecc71;
+}
+.Exit1  {
+    color: white;
+    text-decoration: none;
+}

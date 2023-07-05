@@ -1,0 +1,27 @@
+Bootstrap:
+
+
+oracle:
+https://docs.oracle.com/en/database/oracle/oracle-database/21/tdddg/preface.html
+https://docs.oracle.com/en/database/oracle/oracle-database/21/tdpjd/using-java-with-oracle-database.html
+https://www.geeksforgeeks.org/introduction-java-servlets/
+
+Razor:
+https://www.w3schools.com/ASp/razor_intro.asp
+
+ASP.NET:
+https://learn.microsoft.com/en-us/aspnet/web-forms/overview/getting-started/code-editing-in-web-forms-pages
+https://dotnet.microsoft.com/en-us/apps/aspnet
+
+oracle and ASP.NET:
+https://docs.oracle.com/cd/E11882_01/appdev.112/e10767/using_aspnt.htm#BABBFHIG
+
+What is CRUD ?
+https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+
+js:
+https://onaircode.com/javascript-js-datatable-examples/#:~:text=18%2B%20JavaScript%20Datatable%20Design%20Code%20Examples%201%201.,Vuetify%20Responsive%20Datatable%20Code%20Snippet%20...%20%CE%A0%CE%B5%CF%81%CE%B9%CF%83%CF%83%CF%8C%CF%84%CE%B5%CF%81%CE%B1%20%CF%83%CF%84%CE%BF%CE%B9%CF%87%CE%B5%CE%AF%CE%B1
+
+https://datatables.net/manual/ajax
+
+https://controlsjs.com/tools/

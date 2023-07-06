@@ -16,6 +16,9 @@ https://dotnet.microsoft.com/en-us/apps/aspnet
 oracle and ASP.NET:
 https://docs.oracle.com/cd/E11882_01/appdev.112/e10767/using_aspnt.htm#BABBFHIG
 
+https://www.oracle.com/webfolder/technetwork/tutorials/obe/db/12c/r1/appdev/dotnet/aspnet1/BuildingASPNetApps.html#overview
+
+
 What is CRUD ?
 https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
 
@@ -25,3 +28,7 @@ https://onaircode.com/javascript-js-datatable-examples/#:~:text=18%2B%20JavaScri
 https://datatables.net/manual/ajax
 
 https://controlsjs.com/tools/
+
+Video Streaming with ASP.NET (Razor pages):
+https://learn.microsoft.com/en-us/aspnet/web-pages/overview/ui-layouts-and-themes/10-working-with-video
+

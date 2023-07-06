@@ -1,0 +1,82 @@
+﻿@model sdop.Models.Salesman
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Salesman</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesmanFirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesmanFirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesmanLastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesmanLastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesmanAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesmanAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesmanGender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesmanGender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesmanPhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesmanPhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesmanYearsOfExperience)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesmanYearsOfExperience)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SalesmanSSN }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

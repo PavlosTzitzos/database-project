@@ -1,0 +1,72 @@
+﻿@model IEnumerable<sdop.Models.Company>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+
+    @using (Html.BeginForm())
+    {
+        <p> Company Name: @Html.TextBox("Name eg Pfizer") <br />
+    <br />
+        Address : @Html.TextBox("Address eg Thessaloniki") <br />
+    <br />
+        <input type="submit" value="Filter" /> </p>
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CompanyName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HQAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IncomeOutcomeB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberOfSalesmen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberOfFactories)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NewDrugRate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CompanyName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HQAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IncomeOutcomeB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberOfSalesmen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberOfFactories)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NewDrugRate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CompanyName }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CompanyName }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CompanyName })
+        </td>
+    </tr>
+}
+
+</table>

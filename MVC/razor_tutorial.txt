@@ -1,9 +1,0 @@
-MVC intro tutorial:
-https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/
-
-Entity Framework:
-https://www.tektutorialshub.com/entity-framework/ef-relationships/#:~:text=Relationships%20%26%20Navigation%20Properties%20in%20Entity%20Framework%201,between%20siblings%20is%20Many%20to%20Many%20relationships.%20
-
-https://learn.microsoft.com/en-us/ef/ef6/fundamentals/relationships
-
-https://learn.microsoft.com/en-us/ef/ef6/modeling/code-first/data-annotations

@@ -1,0 +1,64 @@
+<?php include("../files/connect.php");?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link href="../StyleSheets/StyleSheet.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&family=Varela+Round&display=swap');
+    </style>
+
+    <title></title>
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="../Home.html"><img src="../image/logo.png" /></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../Home.html">HOME</a></li>
+                    <li><a href="../search/search.html">SEARCH</a></li>
+                    <li><a href="../insert/insert.html">INSERT</a></li>
+                    <li><a href="../contact.html">CONTACT</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <?php
+        $doctor_name = $_POST['doctor_name'];
+        $doctor_ssn = $_POST['doctor_ssn'];
+        $age = $_POST['age'];
+        $experience_y = $_POST['experience_y'];
+        $specialty = $_POST['specialty'];
+        #create query
+        $q_insert = "INSERT INTO DOCTOR(DOCTOR_NAME,DOCTOR_SSN,AGE,EXPERIENCE_YEARS,SPECIALTY) VALUES('$doctor_name','$doctor_ssn','$age','$experience_y','$specialty') ";
+        $result = mysqli_query($con, $q_insert);
+        if ($result) {
+            // output data of each row
+            print "
+            <html> <body>
+            <form class=\"App\" action=\"insert.html\" method=\"POST\">
+                <h1>Insert was successful!!</h1>
+
+                <input type=\"submit\" name=\"\" value=\"Insert New\" />
+            </form>
+            </body> </html>";
+        } else {
+            #echo "0 results !!";
+            print "
+            <html> <body>
+            <form class=\"App\" action=\"insert.html\" method=\"POST\">
+                <h1>Something went wrong !!</h1>
+                <input type=\"submit\" name=\"\" value=\"Try Again\" />
+            </form>
+            </body> </html>";
+        }
+        mysqli_close($con);
+        ?>
+    </section>
+</body>
+</html>

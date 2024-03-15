@@ -1,0 +1,223 @@
+ActHIB
+Generic name: haemophilus b conjugate (prp-t) vaccine
+Drug class: bacterial vaccines		
+Adacel (Tdap)
+Generic name: diphtheria toxoid/pertussis, acellular/tetanus toxoid
+Drug class: vaccine combinations	1 review	9.0 / 10
+Adlyxin
+Generic name: lixisenatide
+Drug class: incretin mimetics		
+Admelog
+Generic name: insulin lispro
+Drug class: insulin	20 reviews	2.2 / 10
+Aldurazyme
+Generic name: laronidase
+Drug class: lysosomal enzymes		
+Amaryl
+Generic name: glimepiride
+Drug class: sulfonylureas	20 reviews	7.2 / 10
+Ambien
+Generic name: zolpidem
+Drug class: miscellaneous anxiolytics, sedatives and hypnotics	518 reviews	7.0 / 10
+Ambien CR
+Generic name: zolpidem
+Drug class: miscellaneous anxiolytics, sedatives and hypnotics	90 reviews	6.5 / 10
+Apidra
+Generic name: insulin glulisine
+Drug class: insulin	2 reviews	6.0 / 10
+Arava
+Generic name: leflunomide
+Drug class: antirheumatics, selective immunosuppressants	31 reviews	5.9 / 10
+Aubagio
+Generic name: teriflunomide
+Drug class: selective immunosuppressants	72 reviews	5.2 / 10
+Avalide
+Generic name: hydrochlorothiazide/irbesartan
+Drug class: angiotensin II inhibitors with thiazides	5 reviews	9.6 / 10
+Avapro
+Generic name: irbesartan
+Drug class: angiotensin receptor blockers	32 reviews	5.3 / 10
+Caprelsa
+Generic name: vandetanib
+Drug class: EGFR inhibitors, multikinase inhibitors, VEGF/VEGFR inhibitors		
+Cerdelga
+Generic name: eliglustat
+Drug class: miscellaneous metabolic agents		
+Cerezyme
+Generic name: imiglucerase
+Drug class: lysosomal enzymes	1 review	9.0 / 10
+Clolar
+Generic name: clofarabine
+Drug class: antimetabolites		
+Daptacel (DTaP)
+Generic name: diphtheria and tetanus toxoids/pertussis, acellular
+Drug class: vaccine combinations		
+Dengvaxia
+Generic name: dengue vaccine
+Drug class: viral vaccines		
+DiaBeta
+Generic name: glyburide
+Drug class: sulfonylureas		
+diphtheria toxoid/tetanus toxoid Generic
+Drug class: vaccine combinations	1 review	2.0 / 10
+Dupixent
+Generic name: dupilumab
+Drug class: interleukin inhibitors	308 reviews	6.8 / 10
+Elitek
+Generic name: rasburicase
+Drug class: antihyperuricemic agents		
+Eloxatin
+Generic name: oxaliplatin
+Drug class: alkylating agents		
+Enjaymo
+Generic name: sutimlimab
+Drug class: selective immunosuppressants		
+Fabrazyme
+Generic name: agalsidase beta
+Drug class: lysosomal enzymes		
+Ferrlecit
+Generic name: sodium ferric gluconate complex
+Drug class: iron products	2 reviews	3.0 / 10
+Fluzone High-Dose
+Generic name: influenza virus vaccine, inactivated
+Drug class: viral vaccines	27 reviews	2.3 / 10
+Fluzone Intradermal Quadrivalent
+Generic name: influenza virus vaccine, inactivated
+Drug class: viral vaccines		
+Fluzone Quadrivalent
+Generic name: influenza virus vaccine, inactivated
+Drug class: viral vaccines	2 reviews	1.5 / 10
+Hectorol
+Generic name: doxercalciferol
+Drug class: vitamins		
+Imogam Rabies-HT
+Generic name: rabies immune globulin, human
+Drug class: immune globulins		
+Imovax Rabies
+Generic name: rabies vaccine, human diploid cell
+Drug class: viral vaccines		
+Ipol
+Generic name: poliovirus vaccine, inactivated
+Drug class: viral vaccines		
+Jevtana
+Generic name: cabazitaxel
+Drug class: mitotic inhibitors		
+Kevzara
+Generic name: sarilumab
+Drug class: antirheumatics, interleukin inhibitors	17 reviews	5.5 / 10
+Lantus
+Generic name: insulin glargine
+Drug class: insulin	40 reviews	6.6 / 10
+Lemtrada
+Generic name: alemtuzumab
+Drug class: CD52 monoclonal antibodies	17 reviews	6.2 / 10
+Leukine
+Generic name: sargramostim
+Drug class: colony stimulating factors		
+Libtayo
+Generic name: cemiplimab
+Drug class: anti-PD-1 monoclonal antibodies	1 review	10 / 10
+Lovenox
+Generic name: enoxaparin
+Drug class: heparins	16 reviews	6.9 / 10
+Lumizyme
+Generic name: alglucosidase alfa
+Drug class: lysosomal enzymes		
+Menactra
+Generic name: meningococcal conjugate vaccine
+Drug class: bacterial vaccines	2 reviews	1.0 / 10
+MenQuadfi
+Generic name: meningococcal conjugate vaccine
+Mozobil
+Generic name: plerixafor
+Drug class: hematopoietic stem cell mobilizer, other immunostimulants		
+Multaq
+Generic name: dronedarone
+Drug class: group III antiarrhythmics	39 reviews	6.7 / 10
+Nexviazyme
+Generic name: avalglucosidase alfa
+Drug class: lysosomal enzymes		
+Pentacel
+Generic name: diphtheria toxoid/haemophilus b conjugate (prp-t) vaccine/pertussis, acellular/poliovirus vaccine, inactivated/tetanus toxoid
+Drug class: vaccine combinations		
+Plavix
+Generic name: clopidogrel
+Drug class: platelet aggregation inhibitors	49 reviews	7.5 / 10
+Praluent
+Generic name: alirocumab
+Drug class: PCSK9 inhibitors	161 reviews	5.9 / 10
+Priftin
+Generic name: rifapentine
+Drug class: rifamycin derivatives		
+primaquine Generic
+Drug class: antimalarial quinolines		
+Quadracel
+Generic name: diphtheria toxoid/pertussis, acellular/poliovirus vaccine, inactivated/tetanus toxoid
+Drug class: vaccine combinations		
+Renagel
+Generic name: sevelamer
+Drug class: phosphate binders	1 review	7.0 / 10
+Renvela
+Generic name: sevelamer
+Drug class: phosphate binders	6 reviews	5.0 / 10
+Rifadin
+Generic name: rifampin
+Drug class: rifamycin derivatives	1 review	10 / 10
+Rifadin IV
+Generic name: rifampin
+Drug class: rifamycin derivatives		
+Rifamate
+Generic name: isoniazid/rifampin
+Drug class: antituberculosis combinations		
+Rifater
+Generic name: isoniazid/pyrazinamide/rifampin
+Drug class: antituberculosis combinations		
+Sarclisa
+Generic name: isatuximab
+Drug class: CD38 monoclonal antibodies		
+Seprafilm
+Generic name: carboxymethylcellulose/sodium hyaluronate
+Drug class: miscellaneous topical agents		
+Soliqua
+Generic name: insulin glargine/lixisenatide
+Drug class: antidiabetic combinations	15 reviews	4.3 / 10
+Synvisc
+Generic name: hylan g-f 20
+Drug class: viscosupplementation agents	57 reviews	6.4 / 10
+Synvisc-One
+Generic name: hylan g-f 20
+Drug class: viscosupplementation agents	149 reviews	5.9 / 10
+Taxotere
+Generic name: docetaxel
+Drug class: mitotic inhibitors	9 reviews	4.8 / 10
+Tenivac (Td)
+Generic name: diphtheria toxoid/tetanus toxoid
+Drug class: vaccine combinations		
+Thymoglobulin
+Generic name: anti-thymocyte globulin (rabbit)
+Drug class: selective immunosuppressants		
+Thyrogen
+Generic name: thyrotropin alpha
+Drug class: in vivo diagnostic biologicals, thyroid drugs		
+Toujeo Max SoloStar
+Generic name: insulin glargine
+Drug class: insulin		
+Toujeo
+Generic name: insulin glargine
+Drug class: insulin	40 reviews	3.9 / 10
+Tubersol
+Generic name: tuberculin purified protein derivative
+Drug class: in vivo diagnostic biologicals		
+Typhim Vi
+Generic name: typhoid vaccine, inactivated
+Drug class: bacterial vaccines		
+Xenpozyme
+Generic name: olipudase alfa
+Drug class: lysosomal enzymes		
+YF-Vax
+Generic name: yellow fever vaccine
+Drug class: viral vaccines		
+Zaltrap
+Generic name: ziv-aflibercept
+Drug class: VEGF/VEGFR inhibitors
+

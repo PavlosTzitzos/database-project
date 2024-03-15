@@ -1,0 +1,23 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+import random
+MN = [1,2,3,4,5]#open("C:\Users\user\Desktop\MenNames.txt",read);
+WN = [6,7,8,9,10]#open("C:\Users\user\Desktop\MenNames.txt",read);
+LN = [11,12,13,14,15]#open("C:\Users\user\Desktop\MenNames.txt",read);
+
+P = [16,17,18,19,20]#open("C:\Users\user\Desktop\Patients.txt",'w', encoding="utf-8");
+#D = open("C:\Users\user\Desktop\Doctors.txt", 'w', encoding="utf-8");
+#S = open("C:\Users\user\Desktop\Salesmen.txt", 'w', encoding="utf-8");
+l = len(MN);
+for i in range(l):
+    n = random.randint(0,4);#(1,1000);
+    man_name = MN[i];#MN.readline();
+    woman_name = WN[i];#WN.readline();
+    last_name = LN[n];#LN.readline();
+    P[i] = man_name + last_name;#P.write(man_name + last_name + '\n');
+    #P[i+120] = woman_name + last_name;
+# end for
+MN.close();
+WN.close();
+LN.close();
+

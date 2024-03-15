@@ -1,5 +1,0 @@
-This folder contains the ASP.NET application of the same project . 
-
-Additionally it contains the Models - Controllers and Views. 
-
-It is a Razor pages project.

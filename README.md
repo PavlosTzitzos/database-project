@@ -1,5 +1,7 @@
 # Database-project
 
+!!! This repository is no longer maintained. !!!
+
 ## To Do List
 - [ ] make a package for the old version
 - [ ] delete the MVC 
